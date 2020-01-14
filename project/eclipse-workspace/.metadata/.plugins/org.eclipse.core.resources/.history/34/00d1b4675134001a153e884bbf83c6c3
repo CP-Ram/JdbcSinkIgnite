@@ -1,0 +1,165 @@
+package org.apache.pulsar.io.jdbc.javaclienttest.project;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import org.apache.pulsar.client.api.Consumer;
+import org.apache.pulsar.client.api.Message;
+import org.apache.pulsar.client.api.Producer;
+import org.apache.pulsar.client.api.PulsarClient;
+import org.apache.pulsar.client.api.Schema;
+import org.apache.pulsar.client.internal.DefaultImplementation;
+
+
+
+
+
+public class App 
+{
+	static void connectToPulsar(){
+		try{
+		System.out.println("connectToPulsar Start..");	
+		PulsarClient client = PulsarClient.builder().serviceUrl("pulsar://192.168.1.65:6650").build();
+		
+		Producer<CommonTenantInfo> producer = 
+								client.newProducer(Schema.AVRO(CommonTenantInfo.class))
+						        .topic("mytest1001")
+						        .create();
+		
+		int i=0;
+		while (i<1) {
+			System.out.println("Sending Message to topic mytest2.."+i);
+			/*EntitiesTableInfo entityMessage = new EntitiesTableInfo();
+			entityMessage.ENTITYID=i+"";
+			entityMessage.ENTITYNAME="Testing Topic"+i;
+			entityMessage.ENTITYINFOJSON="{}";
+			entityMessage.ENTITYTYPE="test";
+			entityMessage.FABRIC="pulsar";
+			entityMessage.SEQUENCENUMBER=i;
+			entityMessage.TENANTID="pulsar-123";
+			entityMessage.TENANTNAME="pulsar";
+			entityMessage.VALIDFROM="10-01-2020";
+			entityMessage.VALIDTO="10-01-2020";
+			
+			producer.send(entityMessage);
+			*/
+			CommonTenantInfo info = new CommonTenantInfo();
+			info.ADOCONNECTIONSTRING="";
+			info.CONNECTIONSTRING="";
+			info.CORPORATIONNAME="pulsar testing";
+			info.ENVIRONMENT="i-test";
+			info.TENANTID=""+i;
+			info.TENANTJSON="";
+			info.TENANTNAME="";
+			
+			producer.send(info);
+			
+		 i++;
+		}
+		
+		
+		
+		
+		
+		/*
+		
+		Consumer consumer = client.newConsumer()
+		        .topic("persistent://public/default/my-function-input-topic")
+		        .subscriptionName("mytestfunction")
+		        .subscribe();
+		
+		while (true) {
+			  // Wait for a message
+			  Message msg = consumer.receive();
+
+			  try {
+			      // Do something with the message
+			      System.out.printf("Message received: %s", new String(msg.getData()));
+
+			      // Acknowledge the message so that it can be deleted by the message broker
+			      consumer.acknowledge(msg);
+			  } catch (Exception e) {
+			      // Message failed to process, redeliver later
+			      consumer.negativeAcknowledge(msg);
+			  }
+			}	*/
+		}
+		catch(Exception ex){
+			System.out.println(ex);
+		}
+		System.out.println("connectToPulsar End...");
+	}
+	
+    public static void main( String[] args ) throws ClassNotFoundException, SQLException
+    {  	
+    		System.out.println( "main start!" );   		
+    		 		
+    	
+    		// Register JDBC driver.
+    		Class.forName("org.apache.ignite.IgniteJdbcThinDriver");
+    		 
+    		// Open the JDBC connection. integration conn
+    		//Connection conn = DriverManager.getConnection("jdbc:ignite:thin://104.211.24.238/9E7B08B5-3BFD-4026-B322-C4A34FFFAFD7");
+    		Connection conn = DriverManager.getConnection("jdbc:ignite:thin://localhost/C091E548-B45A-49B4-B8EC-2CB5E27C7AF6");
+    		/*
+			Statement stmt = conn.createStatement();
+			String query = "select * from \"9E7B08B5-3BFD-4026-B322-C4A34FFFAFD7\".ENTITIESTABLEINFO";
+			boolean status = stmt.execute(query);
+			if(status){
+				ResultSet rs = stmt.getResultSet();
+				while(rs.next()){
+					System.out.println(rs.getString(1));
+				}
+				rs.close();
+			}*/
+    		//String updateQuery="update ENTITIESTABLEINFO SET "
+    		/*String sqlQuery = "INSERT INTO ENTITIESTABLEINFO (ENTITYID,ENTITYINFOJSON,ENTITYNAME,ENTITYTYPE,FABRIC,SEQUENCENUMBER,TENANTID,TENANTNAME)"
+                    + " VALUES(?, ?, ?, ?,?,?,?,?)";
+    		
+    		
+    		System.out.println(sqlQuery);
+		    PreparedStatement prepStmt = conn.prepareStatement(sqlQuery);
+		    prepStmt.setString(1, "pulsarTesting-1-1-1-1-EntityId"); 
+		    prepStmt.setString(2, "aa");
+		    prepStmt.setString(3, "PulsarEntityName");
+		    prepStmt.setString(4, "PulsarEntityType");
+		    prepStmt.setString(5, "PulsarFabric"); 
+		    prepStmt.setDouble(6, 123.0);
+		    prepStmt.setString(7, "pulsar-TenantId");
+		    prepStmt.setString(8, "PulsarTenant");
+		    */
+    		int count=1;
+    		for(int i=0;i<count;i++){
+    		String sqlQuery = "INSERT INTO ENTITIES_PULSARTEST (ENTITYID,ENTITYINFOJSON,ENTITYNAME,ENTITYTYPE,FABRIC,SEQUENCENUMBER,TENANTID,TENANTNAME)"
+                    + " VALUES(?, ?, ?, ?,?,?,?,?)";
+    		
+    		
+    		System.out.println(sqlQuery);
+		    PreparedStatement prepStmt = conn.prepareStatement(sqlQuery);
+		    prepStmt.setString(1, "pulsarTesting-1-1-1-1-EntityId"+i); 
+		    prepStmt.setString(2, "{}");
+		    prepStmt.setString(3, "PulsarEntityName"+i);
+		    prepStmt.setString(4, "PulsarEntityType"+i);
+		    prepStmt.setString(5, "PulsarFabric"+i); 
+		    prepStmt.setDouble(6, 123.0+i);
+		    prepStmt.setString(7, "pulsar-TenantId"+i);
+		    prepStmt.setString(8, "PulsarTenant"+i);
+		    prepStmt.execute();
+    		}
+		    
+		    /*
+		    String insertUpdate="INSERT INTO ENTITIESTABLEINFO" +
+	                   "(EntityId,EntityInfoJson,EntityName,EntityType,Fabric,SequenceNumber,TenantId,TenantName)" +
+	                   "VALUES ('0-pulsar', '{}', 'Testing Topic0 Name', 'testpulsarType', 'pulsarFabric', 0.0, 'pulsar-123-tenantid', 'pulsar-tenantName')";
+		    
+		    Statement stmt = conn.createStatement();
+		    stmt.executeUpdate(insertUpdate);
+    		*/
+    		System.out.println("Statement executed...");
+    }   		
+	   
+}

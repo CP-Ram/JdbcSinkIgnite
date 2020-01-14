@@ -1,0 +1,3 @@
+Created annotation listener
+------- Starting test org.testng.junit.JUnit4TestClass@239963d8.null([])-------
+------- SUCCESS -- org.testng.junit.JUnit4TestClass@239963d8.null([])-------

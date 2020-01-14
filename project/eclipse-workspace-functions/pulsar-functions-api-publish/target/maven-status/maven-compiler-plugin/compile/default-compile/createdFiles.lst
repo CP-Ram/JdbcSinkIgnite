@@ -1,0 +1,7 @@
+org\apache\pulsar\functions\api\publishexample\MessageInputContext.class
+org\apache\pulsar\functions\api\publishexample\PublishFunction.class
+org\apache\pulsar\functions\api\publishexample\App.class
+org\apache\pulsar\functions\api\publishexample\TestAvroSchemaThroughFunction.class
+org\apache\pulsar\functions\api\publishexample\EntitiesTableInfo.class
+org\apache\pulsar\functions\api\publishexample\ICustomFunction.class
+org\apache\pulsar\functions\api\publishexample\EntitiesPulsarTest.class

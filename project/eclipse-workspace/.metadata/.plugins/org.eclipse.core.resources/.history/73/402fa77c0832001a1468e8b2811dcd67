@@ -1,0 +1,16 @@
+package org.apache.pulsar.io.jdbc.javaclienttest.project;
+
+public class EntitiesTableInfo {
+ int id;
+ String name;
+ EntityId
+ EntityType
+ EntityInfoJson
+ TenantName
+ TenantId
+ Fabric
+ EntityName
+ SequenceNumber
+ ValidFrom
+ ValidTo
+}

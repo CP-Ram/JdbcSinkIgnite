@@ -1,0 +1,7 @@
+org\apache\pulsar\io\jdbc\JdbcUtils$ColumnId.class
+org\apache\pulsar\io\jdbc\JdbcAutoSchemaSink.class
+org\apache\pulsar\io\jdbc\JdbcSinkConfig.class
+org\apache\pulsar\io\jdbc\JdbcUtils$TableDefinition.class
+org\apache\pulsar\io\jdbc\JdbcUtils.class
+org\apache\pulsar\io\jdbc\JdbcAbstractSink.class
+org\apache\pulsar\io\jdbc\JdbcUtils$TableId.class

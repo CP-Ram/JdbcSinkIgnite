@@ -1,0 +1,6 @@
+package org.apache.pulsar.io.jdbc.javaclienttest.project;
+
+public class Test {
+ int i;
+ String name;
+}

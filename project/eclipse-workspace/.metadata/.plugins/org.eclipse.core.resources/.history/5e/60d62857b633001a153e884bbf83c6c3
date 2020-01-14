@@ -1,0 +1,107 @@
+package org.apache.pulsar.io.jdbc.javaclienttest.project;
+
+import org.apache.pulsar.client.api.Consumer;
+import org.apache.pulsar.client.api.Message;
+import org.apache.pulsar.client.api.Producer;
+import org.apache.pulsar.client.api.PulsarClient;
+import org.apache.pulsar.client.api.Schema;
+import org.apache.pulsar.client.internal.DefaultImplementation;
+
+
+
+
+
+public class App 
+{
+	static void connectToPulsar(){
+		try{
+		System.out.println("connectToPulsar Start..");	
+		PulsarClient client = PulsarClient.builder().serviceUrl("pulsar://192.168.1.65:6650").build();
+		
+		Producer<CommonTenantInfo> producer = 
+								client.newProducer(Schema.AVRO(CommonTenantInfo.class))
+						        .topic("mytest1001")
+						        .create();
+		
+		int i=0;
+		while (i<1) {
+			System.out.println("Sending Message to topic mytest2.."+i);
+			/*EntitiesTableInfo entityMessage = new EntitiesTableInfo();
+			entityMessage.ENTITYID=i+"";
+			entityMessage.ENTITYNAME="Testing Topic"+i;
+			entityMessage.ENTITYINFOJSON="{}";
+			entityMessage.ENTITYTYPE="test";
+			entityMessage.FABRIC="pulsar";
+			entityMessage.SEQUENCENUMBER=i;
+			entityMessage.TENANTID="pulsar-123";
+			entityMessage.TENANTNAME="pulsar";
+			entityMessage.VALIDFROM="10-01-2020";
+			entityMessage.VALIDTO="10-01-2020";
+			
+			producer.send(entityMessage);
+			*/
+			CommonTenantInfo info = new CommonTenantInfo();
+			info.ADOCONNECTIONSTRING="";
+			info.CONNECTIONSTRING="";
+			info.CORPORATIONNAME="";
+			info.ENVIRONMENT="";
+			info.TENANTID="";
+			info.TENANTJSON="";
+			info.TENANTNAME="";
+			
+			producer.send(info);
+			
+		 i++;
+		}
+		
+		
+		
+		
+		
+		/*
+		
+		Consumer consumer = client.newConsumer()
+		        .topic("persistent://public/default/my-function-input-topic")
+		        .subscriptionName("mytestfunction")
+		        .subscribe();
+		
+		while (true) {
+			  // Wait for a message
+			  Message msg = consumer.receive();
+
+			  try {
+			      // Do something with the message
+			      System.out.printf("Message received: %s", new String(msg.getData()));
+
+			      // Acknowledge the message so that it can be deleted by the message broker
+			      consumer.acknowledge(msg);
+			  } catch (Exception e) {
+			      // Message failed to process, redeliver later
+			      consumer.negativeAcknowledge(msg);
+			  }
+			}	*/
+		}
+		catch(Exception ex){
+			System.out.println(ex);
+		}
+		System.out.println("connectToPulsar End...");
+	}
+	
+    public static void main( String[] args )
+    {  	
+    	System.out.println( "main start!" );
+    	try{ 		
+    		String tableName ="Entities";
+    		   tableName="\"9E7B08B5-3BFD-4026-B322-C4A34FFFAFD7\"."+tableName;
+    		   System.out.println(tableName);
+    		 //tableName="\"9E7B08B5-3BFD-4026-B322-C4A34FFFAFD7\"."+tableName;  
+    		 System.out.println(tableName);
+    		//connectToPulsar();
+    		
+		}
+		catch(Exception ex){
+			System.out.println("---"+ex);
+		}    	
+    	System.out.println( "main end!" );
+    }
+}

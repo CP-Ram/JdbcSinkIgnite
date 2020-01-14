@@ -1,0 +1,32 @@
+package org.apache.pulsar.io.ignite;
+
+import java.util.Map;
+
+import org.apache.log4j.Logger;
+import org.apache.pulsar.functions.api.Record;
+import org.apache.pulsar.io.core.KeyValue;
+import org.apache.pulsar.io.core.Sink;
+import org.apache.pulsar.io.core.SinkContext;
+
+//override open and write methods of generic sink interface
+public abstract class IgniteAbstractSink<K, V> implements Sink<byte[]> {
+
+	private static final Logger LOGGER = Logger.getLogger(IgniteAbstractSink.class);
+	@Override
+	public void close() throws Exception {		
+		LOGGER.info("close Invoked .....");
+	}
+
+	@Override
+	public void open(Map<String, Object> arg0, SinkContext arg1)
+			throws Exception {
+		LOGGER.info("open Invoked .....");		
+	}
+
+	@Override
+	public void write(Record<byte[]> arg0) throws Exception {
+		LOGGER.info("write Invoked .....");		
+	}
+	
+	public abstract KeyValue<K, V> extractKeyValue(Record<byte[]> message);
+}

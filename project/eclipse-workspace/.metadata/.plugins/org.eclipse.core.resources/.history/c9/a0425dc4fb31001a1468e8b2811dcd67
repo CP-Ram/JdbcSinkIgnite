@@ -1,0 +1,46 @@
+package org.apache.pulsar.io.jdbc.javaclienttest.project;
+
+import org.apache.pulsar.client.api.Producer;
+import org.apache.pulsar.client.api.PulsarClient;
+import org.apache.pulsar.client.api.Schema;
+import org.apache.pulsar.client.internal.DefaultImplementation;
+
+interface Test1{
+	public String TestMethod(){
+		return "";
+	}
+}
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+	static void connectToPulsar(){
+		try{
+			
+		PulsarClient client = DefaultImplementation.newClientBuilder().serviceUrl("pulsar://localhost:6650").build();
+		
+		Producer<String> stringProducer = client.newProducer(Schema.STRING)
+		        .topic("my-topic")
+		        .create();
+		stringProducer.send("My message");
+		}
+		catch(Exception ex){
+			System.out.println(ex);
+		}
+		
+	}
+	
+    public static void main( String[] args )
+    {  	
+    	System.out.println( "main start!" );
+    	try{
+    		connectToPulsar();    		
+		}
+		catch(Exception ex){
+			System.out.println("---"+ex);
+		}    	
+    	System.out.println( "main end!" );
+    }
+}

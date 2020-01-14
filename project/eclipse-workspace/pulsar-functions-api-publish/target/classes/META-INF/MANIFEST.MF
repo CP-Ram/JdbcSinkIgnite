@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: pulsar-functions-api-publish
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: bizruntime-86
+Specification-Vendor: Apache Software Foundation
+Specification-Title: pulsar-functions-api-publish
+Implementation-Vendor-Id: org.apache.pulsar
+Build-Jdk: 1.8.0_144
+Specification-Version: 0.0
+Implementation-URL: http://www.example.com
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Apache Software Foundation
+

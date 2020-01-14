@@ -1,0 +1,4 @@
+# Created at 2020-01-11T16:35:23.260
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

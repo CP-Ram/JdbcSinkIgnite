@@ -1,0 +1,744 @@
+2020-01-09 11:20:12,885 [Worker-5] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\pom.xml
+2020-01-09 11:20:14,830 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.apache.pulsar:pulsar-functions-api-publish:0.0.1-SNAPSHOT @ D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\pom.xml.
+2020-01-09 11:20:14,863 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.pulsar:buildtools:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2020-01-09 11:20:16,685 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pulsar-functions-api-publish/src/main/java
+2020-01-09 11:20:16,690 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pulsar-functions-api-publish/src/test/java
+2020-01-09 11:20:17,268 [Worker-5] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2020-01-09 11:20:17,566 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.apache.pulsar:pulsar-functions-api-publish:0.0.1-SNAPSHOT @ D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\pom.xml.
+2020-01-09 11:20:17,604 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.pulsar:buildtools:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2020-01-09 11:20:18,011 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.apache.pulsar:pulsar-functions-api-publish:0.0.1-SNAPSHOT @ D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\pom.xml.
+2020-01-09 11:20:18,041 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.pulsar:buildtools:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2020-01-09 11:20:19,529 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.pulsar:buildtools:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2020-01-09 11:20:19,704 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:20:19,704 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 11:20:19,707 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:20:19,707 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 11:20:20,987 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.apache.pulsar:pulsar-functions-api-publish:0.0.1-SNAPSHOT @ D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\pom.xml.
+2020-01-09 11:20:21,051 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.pulsar:buildtools:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2020-01-09 11:20:22,056 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.pulsar:buildtools:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2020-01-09 11:20:22,596 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:20:22,596 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 11:20:22,597 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:20:22,598 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 11:22:31,904 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.apache.pulsar:pulsar-functions-api-publish:2.4.2 @ D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\pom.xml.
+2020-01-09 11:22:32,919 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:22:32,919 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 11:22:32,920 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:22:32,920 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 11:22:35,229 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:22:35,229 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 11:22:35,230 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:22:35,230 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 11:22:52,205 [Worker-6] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-01-09 11:22:52,543 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.apache.pulsar:pulsar-functions-api-publish:2.4.2 @ D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\pom.xml.
+2020-01-09 11:22:53,197 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pulsar-functions-api-publish/src/main/java
+2020-01-09 11:22:53,198 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pulsar-functions-api-publish/src/test/java
+2020-01-09 11:22:53,368 [Worker-6] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-01-09 11:22:53,997 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:22:53,998 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 11:22:53,998 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:22:53,998 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 11:23:15,216 [Worker-6] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 11:23:15,216 [Worker-6] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2020-01-09 11:23:20,275 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:23:20,276 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 11:23:20,277 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:23:20,277 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 11:24:00,080 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:24:00,080 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 11:24:00,081 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:24:00,081 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 11:24:02,311 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.apache.pulsar:pulsar-functions-api-publish:2.4.2 @ D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\pom.xml.
+2020-01-09 11:24:02,911 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:24:02,911 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 11:24:02,912 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:24:02,912 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 11:24:08,937 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 11:24:08,937 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2020-01-09 11:24:15,652 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:24:15,652 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 11:24:15,653 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:24:15,653 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 11:24:47,259 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.apache.pulsar:pulsar-functions-api-publish:2.4.2 @ D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\pom.xml.
+2020-01-09 11:24:47,854 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:24:47,854 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 11:24:47,855 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:24:47,855 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 11:24:49,529 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:24:49,529 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 11:24:49,530 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:24:49,530 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 11:25:12,782 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 11:25:12,782 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2020-01-09 11:25:21,882 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:25:21,882 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 11:25:21,882 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:25:21,882 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 11:32:48,289 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:32:48,290 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 11:32:48,290 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:32:48,291 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 11:33:07,511 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:33:07,511 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 11:33:07,512 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:33:07,512 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 11:33:16,055 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 11:33:16,055 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2020-01-09 11:33:17,976 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:33:17,977 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 11:33:17,977 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:33:17,978 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 11:33:27,690 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 11:33:27,690 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2020-01-09 11:33:38,133 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:33:38,133 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 11:33:38,134 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:33:38,134 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 11:43:36,536 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 11:43:36,536 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2020-01-09 11:43:45,141 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:43:45,141 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 11:43:45,142 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:43:45,142 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 11:54:58,687 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:54:58,688 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 11:54:58,689 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:54:58,689 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 11:55:24,474 [Worker-29] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.apache.pulsar:pulsar-functions-api-publish:2.4.2 @ D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\pom.xml.
+2020-01-09 11:55:25,185 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:55:25,186 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 11:55:25,187 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:55:25,187 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 11:55:26,924 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:55:26,924 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 11:55:26,924 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:55:26,924 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 11:55:38,437 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:55:38,437 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 11:55:38,437 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 11:55:38,437 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 12:11:26,655 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:11:26,656 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 12:11:26,657 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:11:26,657 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 12:11:32,225 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 12:11:32,225 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2020-01-09 12:11:34,371 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:11:34,371 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 12:11:34,371 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:11:34,372 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 12:11:39,185 [Worker-37] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 12:11:39,185 [Worker-37] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2020-01-09 12:11:50,104 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:11:50,104 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 12:11:50,104 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:11:50,104 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 12:12:07,704 [Worker-39] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 12:12:07,705 [Worker-39] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2020-01-09 12:12:09,701 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:12:09,701 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 12:12:09,701 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:12:09,701 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 12:12:15,878 [Worker-38] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 12:12:15,878 [Worker-38] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2020-01-09 12:12:17,926 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:12:17,926 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 12:12:17,926 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:12:17,926 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 12:12:23,686 [Worker-35] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 12:12:23,686 [Worker-35] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2020-01-09 12:12:25,529 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:12:25,529 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 12:12:25,530 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:12:25,530 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 12:12:30,354 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 12:12:30,354 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2020-01-09 12:12:41,149 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:12:41,149 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 12:12:41,149 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:12:41,149 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 12:29:42,158 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:29:42,159 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 12:29:42,160 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:29:42,160 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 12:32:42,608 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:32:42,609 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 12:32:42,609 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:32:42,609 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 12:34:39,603 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:34:39,603 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 12:34:39,604 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:34:39,604 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 12:35:06,875 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:35:06,875 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 12:35:06,876 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:35:06,876 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 12:37:00,084 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:37:00,084 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 12:37:00,085 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:37:00,085 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 12:37:07,164 [Worker-41] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 12:37:07,164 [Worker-41] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2020-01-09 12:37:09,079 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:37:09,079 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 12:37:09,080 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:37:09,080 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 12:37:16,730 [Worker-48] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 12:37:16,731 [Worker-48] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2020-01-09 12:37:18,762 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:37:18,762 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 12:37:18,762 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:37:18,762 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 12:37:23,797 [Worker-47] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 12:37:23,798 [Worker-47] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2020-01-09 12:37:34,954 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:37:34,955 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 12:37:34,956 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:37:34,957 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 12:43:23,854 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:43:23,854 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\main\resources
+2020-01-09 12:43:23,854 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:43:23,854 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 12:49:35,726 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:49:35,738 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-09 12:49:35,738 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:49:35,739 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 12:49:43,024 [Worker-52] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 12:49:43,024 [Worker-52] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2020-01-09 12:49:44,977 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:49:44,978 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-09 12:49:44,979 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:49:44,979 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 12:51:08,331 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:51:08,331 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-09 12:51:08,332 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:51:08,332 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 12:51:20,526 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:51:20,526 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-09 12:51:20,526 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:51:20,526 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 12:51:43,541 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:51:43,542 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 12:51:43,556 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:51:43,556 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 12:55:33,681 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:55:33,681 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 12:55:33,684 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:55:33,684 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 12:56:18,115 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 12:56:18,115 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2020-01-09 12:56:19,987 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:56:19,988 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 12:56:19,990 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:56:19,990 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 12:56:25,042 [Worker-58] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-01-09 12:56:25,377 [Worker-58] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.apache.pulsar:pulsar-functions-api-publish:2.4.2 @ D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\pom.xml.
+2020-01-09 12:56:26,049 [Worker-58] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pulsar-functions-api-publish/src/main/java
+2020-01-09 12:56:26,049 [Worker-58] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pulsar-functions-api-publish/src/main/resources
+2020-01-09 12:56:26,054 [Worker-58] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pulsar-functions-api-publish/src/test/java
+2020-01-09 12:56:26,395 [Worker-58] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.apache.pulsar:pulsar-functions-api-publish:2.4.2 @ D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\pom.xml.
+2020-01-09 12:56:26,735 [Worker-58] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-01-09 12:56:27,452 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:56:27,453 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 12:56:27,458 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:56:27,459 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 13:03:48,194 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:03:48,195 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 13:03:48,196 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:03:48,197 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 13:09:02,308 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:09:02,309 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 13:09:02,309 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:09:02,309 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 13:09:11,422 [Worker-66] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 13:09:11,422 [Worker-66] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2020-01-09 13:09:13,415 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:09:13,415 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 13:09:13,418 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:09:13,418 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 13:09:30,173 [Worker-66] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 13:09:30,173 [Worker-66] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2020-01-09 13:09:40,828 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:09:40,829 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 13:09:40,829 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:09:40,829 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 14:28:34,258 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 14:28:34,259 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 14:28:34,259 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 14:28:34,259 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 14:28:47,639 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 14:28:47,639 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 14:28:47,642 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 14:28:47,642 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 14:28:52,004 [Worker-94] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 14:28:52,005 [Worker-94] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2020-01-09 14:29:01,315 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 14:29:01,316 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 14:29:01,316 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 14:29:01,317 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 14:34:49,832 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 14:34:49,832 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 14:34:49,833 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 14:34:49,833 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 14:35:08,634 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 14:35:08,634 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 14:35:08,635 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 14:35:08,635 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 14:35:50,393 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 14:35:50,394 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 14:35:50,395 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 14:35:50,395 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 14:37:02,343 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 14:37:02,344 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 14:37:02,345 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 14:37:02,345 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 14:37:12,250 [Worker-101] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 14:37:12,250 [Worker-101] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2020-01-09 14:37:14,271 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 14:37:14,271 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 14:37:14,275 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 14:37:14,275 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 14:37:18,505 [Worker-94] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 14:37:18,505 [Worker-94] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2020-01-09 14:37:29,297 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 14:37:29,297 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 14:37:29,298 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 14:37:29,298 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 14:43:54,867 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 14:43:54,868 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 14:43:54,869 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 14:43:54,869 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 16:14:54,136 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 16:14:54,137 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 16:14:54,138 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 16:14:54,138 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 16:15:19,038 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 16:15:19,039 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 16:15:19,040 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 16:15:19,040 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 16:24:59,256 [Worker-168] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.apache.pulsar:pulsar-functions-api-publish:2.4.2 @ D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\pom.xml.
+2020-01-09 16:25:00,340 [Worker-168] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5.pom
+2020-01-09 16:25:00,666 [Worker-168] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5.pom
+2020-01-09 16:25:01,482 [Worker-168] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.8.5/gson-parent-2.8.5.pom
+2020-01-09 16:25:01,796 [Worker-168] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.8.5/gson-parent-2.8.5.pom
+2020-01-09 16:25:03,072 [Worker-168] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar
+2020-01-09 16:25:03,980 [Worker-168] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar
+2020-01-09 16:25:04,284 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 16:25:04,284 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-09 16:25:04,285 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 16:25:04,285 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 16:25:05,940 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 16:25:05,940 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 16:25:05,942 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 16:25:05,943 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 16:27:18,764 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 16:27:18,765 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 16:27:18,765 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 16:27:18,766 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 16:27:43,868 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 16:27:43,868 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 16:27:43,869 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 16:27:43,869 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 16:32:08,409 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 16:32:08,410 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 16:32:08,411 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 16:32:08,411 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 16:32:27,553 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 16:32:27,553 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 16:32:27,554 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 16:32:27,554 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 16:34:34,346 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 16:34:34,346 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 16:34:34,347 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 16:34:34,347 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 16:41:28,675 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 16:41:28,675 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 16:41:28,676 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 16:41:28,676 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 16:49:06,301 [Worker-185] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 16:49:06,302 [Worker-185] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 16:49:06,303 [Worker-185] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 16:49:06,303 [Worker-185] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 16:49:15,908 [Worker-184] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 16:49:15,908 [Worker-184] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2020-01-09 16:49:18,308 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 16:49:18,308 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 16:49:18,311 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 16:49:18,311 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 16:49:24,595 [Worker-184] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 16:49:24,596 [Worker-184] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2020-01-09 16:49:36,489 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 16:49:36,489 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 16:49:36,490 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 16:49:36,490 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 17:06:02,276 [Worker-191] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 17:06:02,277 [Worker-191] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 17:06:02,278 [Worker-191] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 17:06:02,278 [Worker-191] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 17:09:31,086 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 17:09:31,086 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 17:09:31,087 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 17:09:31,087 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 17:39:05,545 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 17:39:05,546 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 17:39:05,547 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 17:39:05,547 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 17:39:23,281 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 17:39:23,281 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 17:39:23,282 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 17:39:23,282 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 17:39:40,966 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 17:39:40,966 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 17:39:40,967 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 17:39:40,967 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 17:40:33,646 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 17:40:33,647 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 17:40:33,648 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 17:40:33,648 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 17:42:11,685 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 17:42:11,685 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 17:42:11,685 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 17:42:11,685 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 17:53:26,345 [Worker-219] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo1.maven.org/maven2/org/apache/pulsar/pulsar-functions-api/2.4.2/pulsar-functions-api-2.4.2-sources.jar
+2020-01-09 17:53:27,120 [Worker-219] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo1.maven.org/maven2/org/apache/pulsar/pulsar-functions-api/2.4.2/pulsar-functions-api-2.4.2-sources.jar
+2020-01-09 17:53:27,176 [Worker-219] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.pulsar:pulsar-functions-api:2.4.2
+2020-01-09 17:53:27,449 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 17:53:27,449 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-09 17:53:27,450 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 17:53:27,450 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 18:06:08,024 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 18:06:08,025 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 18:06:08,026 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 18:06:08,026 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 18:06:32,164 [Worker-227] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 18:06:32,164 [Worker-227] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 18:06:32,165 [Worker-227] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 18:06:32,165 [Worker-227] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 18:07:49,029 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 18:07:49,030 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 18:07:49,031 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 18:07:49,031 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 18:20:04,411 [Worker-234] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 18:20:04,411 [Worker-234] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2020-01-09 18:20:12,217 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 18:20:12,217 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 18:20:12,218 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 18:20:12,218 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 18:23:27,464 [Worker-234] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.apache.pulsar:pulsar-functions-api-publish:2.4.2 @ D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\pom.xml.
+2020-01-09 18:23:28,120 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 18:23:28,120 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 18:23:28,123 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 18:23:28,123 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 18:23:35,899 [Worker-237] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 18:23:35,899 [Worker-237] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2020-01-09 18:23:38,247 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 18:23:38,248 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 18:23:38,250 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 18:23:38,250 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 18:23:40,838 [Worker-238] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 18:23:40,838 [Worker-238] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2020-01-09 18:23:51,264 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 18:23:51,264 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 18:23:51,264 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 18:23:51,264 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 18:26:30,948 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 18:26:30,948 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 18:26:30,949 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 18:26:30,949 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 18:28:47,478 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 18:28:47,478 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 18:28:47,479 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 18:28:47,479 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 20:01:12,194 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 20:01:12,195 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 20:01:12,195 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 20:01:12,195 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 20:44:25,741 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 20:44:25,742 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 20:44:25,743 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 20:44:25,743 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 20:44:36,160 [Worker-299] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 20:44:36,160 [Worker-299] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2020-01-09 20:44:38,970 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 20:44:38,970 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 20:44:38,973 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 20:44:38,973 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 20:45:58,949 [Worker-303] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 20:45:58,949 [Worker-303] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2020-01-09 20:46:13,198 [Worker-308] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 20:46:13,199 [Worker-308] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 20:46:13,199 [Worker-308] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 20:46:13,199 [Worker-308] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 21:35:26,698 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 21:35:26,698 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 21:35:26,699 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 21:35:26,699 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 21:38:06,844 [Worker-333] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 21:38:06,845 [Worker-333] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 21:38:06,846 [Worker-333] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 21:38:06,846 [Worker-333] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 21:39:02,393 [Worker-331] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 21:39:02,394 [Worker-331] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 21:39:02,395 [Worker-331] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 21:39:02,395 [Worker-331] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 21:39:12,116 [Worker-333] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 21:39:12,116 [Worker-333] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2020-01-09 21:39:14,645 [Worker-330] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 21:39:14,645 [Worker-330] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 21:39:14,648 [Worker-330] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 21:39:14,649 [Worker-330] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 21:39:18,512 [Worker-331] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 21:39:18,512 [Worker-331] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2020-01-09 21:39:31,425 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 21:39:31,426 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 21:39:31,427 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 21:39:31,427 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 21:44:08,615 [Worker-333] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 21:44:08,615 [Worker-333] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 21:44:08,616 [Worker-333] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 21:44:08,616 [Worker-333] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 21:44:40,738 [Worker-334] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 21:44:40,738 [Worker-334] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2020-01-09 21:44:42,754 [Worker-327] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 21:44:42,754 [Worker-327] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 21:44:42,757 [Worker-327] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 21:44:42,757 [Worker-327] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-09 21:44:52,860 [Worker-337] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-09 21:44:52,860 [Worker-337] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2020-01-09 21:45:04,277 [Worker-327] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 21:45:04,277 [Worker-327] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 21:45:04,279 [Worker-327] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 21:45:04,280 [Worker-327] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 10:44:25,578 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.apache.pulsar:pulsar-functions-api-publish:2.4.2 @ D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\pom.xml.
+2020-01-10 10:44:30,670 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 10:44:30,675 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 10:44:30,692 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 10:44:30,692 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 12:37:24,236 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:37:24,239 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 12:37:24,241 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:37:24,241 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 12:40:39,014 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:40:39,015 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 12:40:39,016 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:40:39,016 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 12:46:23,072 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:46:23,073 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 12:46:23,073 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:46:23,073 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 12:46:30,318 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:46:30,318 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 12:46:30,320 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:46:30,320 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 12:48:46,061 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:48:46,061 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 12:48:46,062 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:48:46,062 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 12:58:05,869 [Worker-52] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-10 12:58:05,869 [Worker-52] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2020-01-10 12:58:09,325 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:58:09,326 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 12:58:09,330 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:58:09,330 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 12:58:13,814 [Worker-54] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-10 12:58:13,814 [Worker-54] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2020-01-10 12:58:25,113 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:58:25,113 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 12:58:25,115 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 12:58:25,115 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 14:08:01,070 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 14:08:01,070 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 14:08:01,072 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 14:08:01,072 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 14:10:09,924 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 14:10:09,925 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 14:10:09,925 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 14:10:09,925 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 15:40:57,303 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 15:40:57,304 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 15:40:57,304 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 15:40:57,305 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 16:30:13,353 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:30:13,354 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 16:30:13,356 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:30:13,356 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 16:30:33,207 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:30:33,208 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 16:30:33,209 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:30:33,209 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 16:30:48,946 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:30:48,946 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 16:30:48,947 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:30:48,947 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 16:31:53,330 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:31:53,330 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 16:31:53,331 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:31:53,331 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 16:35:36,168 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:35:36,169 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 16:35:36,170 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:35:36,170 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 16:39:29,523 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:39:29,524 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 16:39:29,525 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:39:29,525 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 16:40:00,780 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:40:00,780 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 16:40:00,781 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:40:00,781 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 16:40:15,097 [Worker-139] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-10 16:40:15,097 [Worker-139] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2020-01-10 16:40:17,428 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:40:17,429 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 16:40:17,433 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:40:17,433 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 16:40:45,907 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:40:45,908 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 16:40:45,909 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:40:45,909 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 16:40:56,985 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:40:56,986 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 16:40:56,987 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:40:56,987 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 16:41:01,039 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:41:01,039 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 16:41:01,039 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:41:01,039 [Worker-135] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 16:41:36,335 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:41:36,335 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 16:41:36,336 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:41:36,336 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 16:42:30,815 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:42:30,816 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 16:42:30,817 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:42:30,817 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 16:42:55,841 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:42:55,841 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 16:42:55,842 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:42:55,842 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 16:43:02,010 [Worker-139] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-10 16:43:02,010 [Worker-139] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2020-01-10 16:43:03,787 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:43:03,787 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 16:43:03,790 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:43:03,790 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 16:43:12,644 [Worker-137] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-10 16:43:12,644 [Worker-137] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2020-01-10 16:43:14,483 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:43:14,483 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 16:43:14,486 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:43:14,486 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 16:43:18,604 [Worker-138] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-10 16:43:18,604 [Worker-138] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2020-01-10 16:43:30,410 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:43:30,411 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 16:43:30,411 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:43:30,412 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 16:43:35,107 [Worker-138] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-10 16:43:35,107 [Worker-138] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2020-01-10 16:43:36,945 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:43:36,946 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 16:43:36,949 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:43:36,949 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 16:43:39,537 [Worker-135] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-10 16:43:39,537 [Worker-135] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2020-01-10 16:43:49,585 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:43:49,586 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 16:43:49,587 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:43:49,587 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 16:59:02,677 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:59:02,678 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 16:59:02,678 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 16:59:02,678 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-10 20:30:32,043 [Worker-192] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 20:30:32,044 [Worker-192] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-10 20:30:32,045 [Worker-192] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-10 20:30:32,045 [Worker-192] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-11 14:35:42,063 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 14:35:42,064 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-11 14:35:42,066 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 14:35:42,066 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-11 14:36:32,536 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 14:36:32,537 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-11 14:36:32,538 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 14:36:32,538 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-11 14:38:56,561 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 14:38:56,561 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-11 14:38:56,562 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 14:38:56,562 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-11 14:39:08,597 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 14:39:08,598 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-11 14:39:08,598 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 14:39:08,598 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-11 14:40:28,154 [Worker-346] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 14:40:28,155 [Worker-346] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-11 14:40:28,155 [Worker-346] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 14:40:28,156 [Worker-346] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-11 14:41:16,878 [Worker-343] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 14:41:16,878 [Worker-343] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-11 14:41:16,879 [Worker-343] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 14:41:16,879 [Worker-343] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-11 14:41:52,317 [Worker-343] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 14:41:52,318 [Worker-343] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-11 14:41:52,319 [Worker-343] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 14:41:52,319 [Worker-343] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-11 14:42:09,210 [Worker-332] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-11 14:42:09,210 [Worker-332] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2020-01-11 14:42:11,352 [Worker-345] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 14:42:11,352 [Worker-345] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-11 14:42:11,370 [Worker-345] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 14:42:11,371 [Worker-345] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-11 14:42:14,819 [Worker-343] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-11 14:42:14,819 [Worker-343] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2020-01-11 14:42:26,105 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 14:42:26,106 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-11 14:42:26,106 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 14:42:26,106 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-11 15:01:09,541 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 15:01:09,542 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-11 15:01:09,543 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 15:01:09,543 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-11 15:01:28,975 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 15:01:28,976 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-11 15:01:28,977 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 15:01:28,977 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-11 15:01:33,916 [Worker-354] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-11 15:01:33,916 [Worker-354] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2020-01-11 15:01:36,574 [Worker-354] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 15:01:36,575 [Worker-354] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-11 15:01:36,577 [Worker-354] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 15:01:36,577 [Worker-354] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-11 15:01:47,065 [Worker-354] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-11 15:01:47,065 [Worker-354] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2020-01-11 15:01:59,653 [Worker-357] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 15:01:59,654 [Worker-357] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-11 15:01:59,655 [Worker-357] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 15:01:59,655 [Worker-357] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-11 16:32:29,482 [Worker-371] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-11 16:32:29,483 [Worker-371] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2020-01-11 16:32:31,443 [Worker-378] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 16:32:31,444 [Worker-378] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-11 16:32:31,446 [Worker-378] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 16:32:31,446 [Worker-378] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-11 16:32:42,259 [Worker-378] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-11 16:32:42,259 [Worker-378] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2020-01-11 16:32:53,412 [Worker-376] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 16:32:53,412 [Worker-376] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-11 16:32:53,414 [Worker-376] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 16:32:53,414 [Worker-376] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-11 16:35:10,772 [Worker-376] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-11 16:35:10,772 [Worker-376] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2020-01-11 16:35:13,019 [Worker-364] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 16:35:13,020 [Worker-364] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-11 16:35:13,022 [Worker-364] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 16:35:13,022 [Worker-364] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-11 16:35:15,216 [Worker-376] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish
+2020-01-11 16:35:15,216 [Worker-376] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2020-01-11 16:35:26,307 [Worker-377] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 16:35:26,308 [Worker-377] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-11 16:35:26,308 [Worker-377] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 16:35:26,308 [Worker-377] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources
+2020-01-11 17:00:25,375 [Worker-382] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 17:00:25,377 [Worker-382] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-11 17:00:25,377 [Worker-382] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-11 17:00:25,378 [Worker-382] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Ram\Software\installed\pulsar\project\eclipse-workspace-functions\pulsar-functions-api-publish\src\test\resources

@@ -1,0 +1,26 @@
+package org.test.schema;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import org.apache.pulsar.client.api.Schema;
+
+
+public class TestSchemaApp {
+	@Data
+	@Builder
+	@NoArgsConstructor
+	@AllArgsConstructor
+	static class V1Data {
+	    int i;
+	}
+	
+	static Schema<V1Data> testschema ;
+public static void main(String[] args) {
+ testschema = 	Schema.AVRO(V1Data.class);
+ System.out.println(testschema);
+ System.out.println(testschema.toString());
+}
+}

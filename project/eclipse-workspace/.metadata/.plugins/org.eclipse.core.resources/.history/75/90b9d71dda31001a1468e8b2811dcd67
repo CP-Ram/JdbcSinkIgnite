@@ -1,0 +1,5 @@
+package org.test.schema;
+
+public class TestSchemaApp {
+
+}

@@ -1,0 +1,80 @@
+package org.apache.pulsar.io.jdbc.javaclienttest.project;
+
+import org.apache.pulsar.client.api.Consumer;
+import org.apache.pulsar.client.api.Message;
+import org.apache.pulsar.client.api.Producer;
+import org.apache.pulsar.client.api.PulsarClient;
+import org.apache.pulsar.client.api.Schema;
+import org.apache.pulsar.client.internal.DefaultImplementation;
+
+
+
+
+
+public class App 
+{
+	static void connectToPulsar(){
+		try{
+		System.out.println("connectToPulsar Start..");	
+		PulsarClient client = PulsarClient.builder().serviceUrl("pulsar://192.168.1.97:6650").build();
+		
+		Producer<Test> stringProducer = client.newProducer(Schema.AVRO(Test.class))
+		        .topic("mytest2")
+		        .create();
+		
+		int i=0;
+		while (i<10) {
+			System.out.println("Sending Message to topic mytest2.."+i);
+			Test t = new Test();
+			t.id=i;
+			t.name="Testing Topic"+i;
+			
+			stringProducer.send(t);
+			
+			
+		i++;
+		}
+		
+		/*
+		Consumer consumer = client.newConsumer()
+		        .topic("mytest1")
+		        .subscriptionName("mytest1-subscription")
+		        .subscribe();
+		
+		while (true) {
+			  // Wait for a message
+			  Message msg = consumer.receive();
+
+			  try {
+			      // Do something with the message
+			      System.out.printf("Message received: %s", new String(msg.getData()));
+
+			      // Acknowledge the message so that it can be deleted by the message broker
+			      consumer.acknowledge(msg);
+			  } catch (Exception e) {
+			      // Message failed to process, redeliver later
+			      consumer.negativeAcknowledge(msg);
+			  }
+			}	*/
+		}
+		catch(Exception ex){
+			System.out.println(ex);
+		}
+		System.out.println("connectToPulsar End...");
+	}
+	
+    public static void main( String[] args )
+    {  	
+    	System.out.println( "main start!" );
+    	try{
+    		
+    		
+    		connectToPulsar();
+    		
+		}
+		catch(Exception ex){
+			System.out.println("---"+ex);
+		}    	
+    	System.out.println( "main end!" );
+    }
+}

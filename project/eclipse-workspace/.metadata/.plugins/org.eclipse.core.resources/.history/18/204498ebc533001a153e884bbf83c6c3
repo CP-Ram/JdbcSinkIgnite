@@ -1,0 +1,155 @@
+package org.apache.pulsar.io.jdbc.javaclienttest.project;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+
+import org.apache.pulsar.client.api.Consumer;
+import org.apache.pulsar.client.api.Message;
+import org.apache.pulsar.client.api.Producer;
+import org.apache.pulsar.client.api.PulsarClient;
+import org.apache.pulsar.client.api.Schema;
+import org.apache.pulsar.client.internal.DefaultImplementation;
+
+
+
+
+
+public class App 
+{
+	static void connectToPulsar(){
+		try{
+		System.out.println("connectToPulsar Start..");	
+		PulsarClient client = PulsarClient.builder().serviceUrl("pulsar://192.168.1.65:6650").build();
+		
+		Producer<CommonTenantInfo> producer = 
+								client.newProducer(Schema.AVRO(CommonTenantInfo.class))
+						        .topic("mytest1001")
+						        .create();
+		
+		int i=0;
+		while (i<1) {
+			System.out.println("Sending Message to topic mytest2.."+i);
+			/*EntitiesTableInfo entityMessage = new EntitiesTableInfo();
+			entityMessage.ENTITYID=i+"";
+			entityMessage.ENTITYNAME="Testing Topic"+i;
+			entityMessage.ENTITYINFOJSON="{}";
+			entityMessage.ENTITYTYPE="test";
+			entityMessage.FABRIC="pulsar";
+			entityMessage.SEQUENCENUMBER=i;
+			entityMessage.TENANTID="pulsar-123";
+			entityMessage.TENANTNAME="pulsar";
+			entityMessage.VALIDFROM="10-01-2020";
+			entityMessage.VALIDTO="10-01-2020";
+			
+			producer.send(entityMessage);
+			*/
+			CommonTenantInfo info = new CommonTenantInfo();
+			info.ADOCONNECTIONSTRING="";
+			info.CONNECTIONSTRING="";
+			info.CORPORATIONNAME="pulsar testing";
+			info.ENVIRONMENT="i-test";
+			info.TENANTID=""+i;
+			info.TENANTJSON="";
+			info.TENANTNAME="";
+			
+			producer.send(info);
+			
+		 i++;
+		}
+		
+		
+		
+		
+		
+		/*
+		
+		Consumer consumer = client.newConsumer()
+		        .topic("persistent://public/default/my-function-input-topic")
+		        .subscriptionName("mytestfunction")
+		        .subscribe();
+		
+		while (true) {
+			  // Wait for a message
+			  Message msg = consumer.receive();
+
+			  try {
+			      // Do something with the message
+			      System.out.printf("Message received: %s", new String(msg.getData()));
+
+			      // Acknowledge the message so that it can be deleted by the message broker
+			      consumer.acknowledge(msg);
+			  } catch (Exception e) {
+			      // Message failed to process, redeliver later
+			      consumer.negativeAcknowledge(msg);
+			  }
+			}	*/
+		}
+		catch(Exception ex){
+			System.out.println(ex);
+		}
+		System.out.println("connectToPulsar End...");
+	}
+	
+    public static void main( String[] args )
+    {  	
+    	System.out.println( "main start!" );
+    	try{ 		
+    		//String tableName ="Entities";
+    		  // tableName="\"9E7B08B5-3BFD-4026-B322-C4A34FFFAFD7\"."+tableName;
+    		   //System.out.println(tableName);
+    		 //tableName="\"9E7B08B5-3BFD-4026-B322-C4A34FFFAFD7\"."+tableName;  
+    		// System.out.println(tableName);
+    		//connectToPulsar();
+    		
+    		Connection con = null;
+    		        try {
+    		            Class.forName("oracle.jdbc.driver.OracleDriver");
+    		            con = DriverManager.
+    		                    getConnection("jdbc:oracle:thin:@<hostname>:<port num>:<DB name>"
+    		                        ,"user","password");
+    		            Statement stmt = con.createStatement();
+    		            //The query can be update query or can be select query
+    		            String query = "select * from emp";
+    		            boolean status = stmt.execute(query);
+    		            if(status){
+    		                //query is a select query.
+    		                ResultSet rs = stmt.getResultSet();
+    		                while(rs.next()){
+    		                    System.out.println(rs.getString(1));
+    		                }
+    		                rs.close();
+    		            } else {
+    		                //query can be update or any query apart from select query
+    		                int count = stmt.getUpdateCount();
+    		                System.out.println("Total records updated: "+count);
+    		            }
+    		        } catch (ClassNotFoundException e) {
+    		            // TODO Auto-generated catch block
+    		            e.printStackTrace();
+    		        } catch (SQLException e) {
+    		            // TODO Auto-generated catch block
+    		            e.printStackTrace();
+    		        } finally{
+    		            try{
+    		                if(con != null) con.close();
+    		            } catch (Exception ex){}
+    		        }
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+		}
+		catch(Exception ex){
+			System.out.println("---"+ex);
+		}    	
+    	System.out.println( "main end!" );
+    }
+}

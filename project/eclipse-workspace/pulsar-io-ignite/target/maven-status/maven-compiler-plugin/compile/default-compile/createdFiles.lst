@@ -1,0 +1,3 @@
+org\apache\pulsar\io\ignite\IgniteBytesSink.class
+org\apache\pulsar\io\ignite\IgniteSinkConfig.class
+org\apache\pulsar\io\ignite\IgniteAbstractSink.class

@@ -1,0 +1,13 @@
+package org.apache.pulsar.functions.api.publishexample;
+
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+		//String input ="{\"id\":0,\"name\":\"0\"}";
+		//String output = String.format("%s!", input);
+		//System.out.println(output);
+    }
+}

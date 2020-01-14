@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+			<item value="https://travis-ci.org/apache/pulsar"/>
+		</list>
+		<list key="ciManagementSystem">
+			<item value="Travis"/>
+		</list>
+		<list key="issueManagementSystem">
+			<item value="Github"/>
+		</list>
+		<list key="issueManagementUrl">
+			<item value="https://github.com/apache/pulsar/issues"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\Ram\Software\installed\pulsar\project\eclipse-workspace\pulsar-io-ignite"/>
+			<item value="D:\Ram\Software\installed\pulsar\project\pulsar\pulsar-io\kafka"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\Ram\Software\installed\pulsar\project\eclipse-workspace\pulsar-io-ignite\src\main\java"/>
+			<item value="D:\Ram\Software\installed\pulsar\project\eclipse-workspace\pulsar-io-jdbc-ignite\src\main\java\org\apache\pulsar\io\jdbc\ignite\TestConnection.java"/>
+			<item value="D:\Ram\Software\installed\pulsar\project\pulsar1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="org.apache.pulsar.io.jdbc.pulsar_io_jdbc"/>
+			<item value="org.io.jdbc.ignite.test"/>
+			<item value="org.apache.pulsar.io.jdbc.ignite"/>
+			<item value="org.apache.pulsar.io.ignite"/>
+			<item value="org.apache.pulsar.io.ignite.pulsar_io_ignite"/>
+			<item value="org.apache.pulsar"/>
+			<item value="pulsarTest.pulsar_test_project"/>
+		</list>
+		<list key="groupId">
+			<item value="org.apache.pulsar.io.jdbc"/>
+			<item value="org.io.jdbc.ignite"/>
+			<item value="org.apache.pulsar.io.jdbc.ignite"/>
+			<item value="org.apache.pulsar.io.ignite"/>
+			<item value="org.apache.pulsar"/>
+			<item value="pulsarTest"/>
+		</list>
+		<list key="artifactId">
+			<item value="pulsar-io-jdbc"/>
+			<item value="org.io.jdbc.ignite.test"/>
+			<item value="pulsar-io-jdbc-ignite"/>
+			<item value="pulsar-io-ignite"/>
+			<item value="pulsar-test-project"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

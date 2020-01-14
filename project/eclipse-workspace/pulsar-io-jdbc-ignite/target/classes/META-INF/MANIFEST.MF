@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Title: pulsar-io-jdbc-ignite
+Implementation-Version: 2.4.1
+Built-By: bizruntime-86
+Specification-Vendor: Apache Software Foundation
+Specification-Title: pulsar-io-jdbc-ignite
+Implementation-Vendor-Id: org.apache.pulsar
+Build-Jdk: 1.8.0_144
+Specification-Version: 2.4
+Implementation-URL: https://github.com/apache/pulsar/pulsar-io/pulsar-
+ io-jdbc-ignite
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Apache Software Foundation
+

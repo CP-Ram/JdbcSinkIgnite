@@ -1,0 +1,119 @@
+/**
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+
+package org.apache.pulsar.io.jdbc.ignite.sink;
+
+import java.sql.PreparedStatement;
+import java.util.List;
+
+import com.google.common.collect.Lists;
+import com.google.gson.Gson;
+
+import lombok.extern.slf4j.Slf4j;
+
+import org.apache.log4j.Logger;
+import org.apache.pulsar.client.api.schema.GenericRecord;
+import org.apache.pulsar.functions.api.Record;
+import org.apache.pulsar.io.core.annotations.Connector;
+import org.apache.pulsar.io.core.annotations.IOType;
+import org.apache.pulsar.io.jdbc.ignite.sink.JdbcUtils.ColumnId;
+
+/**
+ * A Simple Jdbc sink, which interprets input Record in generic record.
+ */
+@Connector(
+    name = "jdbc",
+    type = IOType.SINK,
+    help = "A simple JDBC sink that writes pulsar messages to a ignite table",
+    configClass = JdbcSinkConfig.class
+)
+@Slf4j
+public class JdbcAutoSchemaSink extends JdbcAbstractSink<byte[]> {
+	private static final Logger LOGGER = Logger.getLogger(JdbcAutoSchemaSink.class);
+    @Override
+    public void bindValue(PreparedStatement statement,
+                          Record<byte[]> message, String action) throws Exception {
+    	LOGGER.info("JdbcAutoSchemaSink bindValue() start...");
+        byte[] record = message.getValue();
+        List<ColumnId> columns = Lists.newArrayList();
+        if (action == null || action.equals(INSERT)) {
+        	LOGGER.info("JdbcAutoSchemaSink bindValue() action INSERT...");
+            columns = tableDefinition.getColumns();
+        } else if (action.equals(DELETE)){
+        	LOGGER.info("JdbcAutoSchemaSink bindValue() action DELETE...");
+            columns.addAll(tableDefinition.getKeyColumns());
+        } else if (action.equals(UPDATE)){
+        	LOGGER.info("JdbcAutoSchemaSink bindValue() action UPDATE...");
+            columns.addAll(tableDefinition.getNonKeyColumns());
+            columns.addAll(tableDefinition.getKeyColumns());
+        }
+
+        int index = 1;
+        for (ColumnId columnId : columns) {
+        	LOGGER.info("JdbcAutoSchemaSink bindValue() ColumnId iteration...");
+            String colName = columnId.getName();
+            LOGGER.info("ColName:"+colName);
+            
+            Gson gsonObj = new Gson();
+        	String jsonStr = gsonObj.toJson(record);
+        	LOGGER.info("Before Record.getField:"+jsonStr);
+            //Object obj = record.getField(colName);
+            
+            LOGGER.info("Object:"+obj.toString());
+            //setColumnValue(statement, index++, obj);
+        }
+        
+        LOGGER.info("JdbcAutoSchemaSink bindValue() end...");
+    }
+
+    private static void setColumnValue(PreparedStatement statement, int index, Object value) throws Exception {
+    	LOGGER.info("JdbcAutoSchemaSink setColumnValue() start....");
+    	
+    	LOGGER.info("JdbcAutoSchemaSink setColunmValue() PreparedStatement...."+statement.toString());
+    	Gson gsonObj = new Gson();
+    	String jsonStr = gsonObj.toJson(value);
+    	LOGGER.info("JdbcAutoSchemaSink setColumnValue() Object...."+jsonStr);
+        if (value instanceof Integer) {
+        	LOGGER.info("Integer...."+index);
+            statement.setInt(index, (Integer) value);
+        } else if (value instanceof Long) {
+        	LOGGER.info("Long...."+index);
+            statement.setLong(index, (Long) value);
+        } else if (value instanceof Double) {
+        	LOGGER.info("Double...."+index);
+            statement.setDouble(index, (Double) value);
+        } else if (value instanceof Float) {
+        	LOGGER.info("Float...."+index);
+            statement.setFloat(index, (Float) value);
+        } else if (value instanceof Boolean) {
+        	LOGGER.info("Boolean...."+index);
+            statement.setBoolean(index, (Boolean) value);
+        } else if (value instanceof String) {
+        	LOGGER.info("String...."+index);
+            statement.setString(index, (String)value);
+        } else if (value instanceof Short) {
+        	LOGGER.info("Short...."+index);
+            statement.setShort(index, (Short) value);
+        } else {
+            throw new Exception("Not support value type, need to add it. " + value.getClass());
+        }
+        LOGGER.info("JdbcAutoSchemaSink setColumnValue() end....");
+    }
+}
+

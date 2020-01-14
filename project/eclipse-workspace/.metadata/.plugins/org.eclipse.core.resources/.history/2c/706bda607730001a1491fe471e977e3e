@@ -1,0 +1,20 @@
+package org.apache.pulsar.io.jdbc.ignite;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class TestConnection {
+public static void main(String[] args) throws SQLException {
+	try{
+		Class.forName("org.apache.ignite.IgniteJdbcThinDriver");
+		 
+		// Open the JDBC connection.
+		Connection conn = DriverManager.getConnection("jdbc:ignite:thin://104.211.24.238");
+	System.out.println("---");
+	}
+	catch(Exception ex){
+		System.out.println("---"+ex);
+	}
+}
+}

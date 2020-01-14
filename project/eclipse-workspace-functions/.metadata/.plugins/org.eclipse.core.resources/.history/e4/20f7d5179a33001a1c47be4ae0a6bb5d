@@ -1,0 +1,135 @@
+/**
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+package org.apache.pulsar.functions.api.publishexample;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Optional;
+
+import org.apache.log4j.Logger;
+import org.apache.pulsar.client.api.Producer;
+import org.apache.pulsar.client.api.PulsarClient;
+import org.apache.pulsar.client.api.PulsarClientException;
+import org.apache.pulsar.client.api.Schema;
+import org.apache.pulsar.client.api.TypedMessageBuilder;
+import org.apache.pulsar.functions.api.Context;
+import org.apache.pulsar.functions.api.Function;
+
+import com.google.gson.Gson;
+
+/**
+ * Example function that uses the built in publish function in the context
+ * to publish to a desired topic based on config.
+ */
+public class PublishFunction implements Function<String, Void> {
+	//private PulsarClient client=null;
+	//private Producer<ICustomFunction> producer=null;
+	
+	private static final Logger LOGGER = Logger.getLogger(PublishFunction.class);
+		
+	    @Override
+	    public Void process(String input, Context context) {
+		 LOGGER.info("Functions Start...");
+		 String publishTopic=null;
+	        //String publishTopic = (String) context.getUserConfigValueOrDefault("publish-topic", "publishtopic");
+		 Optional<Object> whatToWrite = context.getUserConfigValue("PublishTopic");
+         if (whatToWrite.get() != null) {
+        	 publishTopic=(String)whatToWrite.get();
+         } else {
+        	 LOGGER.info("Not a nice way");
+         }
+		 	
+	    //String output = String.format("%s!", input);
+
+        Map<String, String> properties = new HashMap<>();
+        properties.put("input_topic", context.getCurrentRecord().getTopicName().get());
+        //properties.put("message_context", context);
+        //properties.putAll(context.getCurrentRecord().getProperties());
+        LOGGER.info("Received Message"+input);
+        try {
+            TypedMessageBuilder messageBuilder = context.newOutputMessage(publishTopic, Schema.STRING).
+                    value(input).properties(properties);
+            if (context.getCurrentRecord().getKey().isPresent()){
+                messageBuilder.key(context.getCurrentRecord().getKey().get());
+            }
+            messageBuilder.eventTime(System.currentTimeMillis()).sendAsync();
+        } catch (PulsarClientException e) {
+            context.getLogger().error(e.toString());
+        }
+        LOGGER.info("Functions End...");
+        return null;
+	    }
+	
+	
+	
+	
+	//One Solution Per Message On client and one producer
+	//Need To maintain Models here for each type of topic
+	/*
+    @Override
+    public Void process(String input, Context context) {
+    	LOGGER.info("Function process start...");
+    	String publishTopic=null;
+        //String publishTopic = (String) context.getUserConfigValueOrDefault("PublishTopic", "publishtopic");
+    	 Optional<Object> whatToWrite = context.getUserConfigValue("PublishTopic");
+         if (whatToWrite.get() != null) {
+        	 publishTopic=(String)whatToWrite.get();
+         } else {
+        	 LOGGER.info("Not a nice way");
+         }
+    	LOGGER.info("publishTopic: "+publishTopic);
+        //String output = String.format("%s", input);
+    	Gson gson = new Gson();
+    	EntitiesTableInfo inputObject = gson.fromJson(input, EntitiesTableInfo.class);
+        LOGGER.info("Message received: "+input);
+        
+        LOGGER.info("Model class Object Json,"+gson.toJson(inputObject));
+        
+        LOGGER.info("Model class object.."+Schema.AVRO(EntitiesTableInfo.class));
+        
+        try {
+        	LOGGER.info("Sending Message to Topic start...");
+            //context.newOutputMessage(publishTopic, Schema.AVRO(TestAvroSchemaThroughFunction.class)).value(output).sendAsync();
+        	
+        	//context.newOutputMessage(publishTopic, Schema.AVRO(EntitiesTableInfo.class)).value(inputObject).sendAsync();
+        	        	
+        	PulsarClient client = PulsarClient.builder().serviceUrl("pulsar://192.168.1.65:6650").build();
+        
+        	Producer<ICustomFunction> producer = 
+					client.newProducer(Schema.AVRO(ICustomFunction.class))
+			        .topic(publishTopic)
+			        .create();        	
+        	
+        	producer.send(inputObject);     	
+        	
+        	LOGGER.info("Sending Message to Topic End...");
+        } catch (PulsarClientException e) {
+        	LOGGER.info("process catch block..."+e);
+            context.getLogger().error(e.toString());
+        }
+        LOGGER.info("Function process end...");
+        return null;
+    }
+	*/
+}
+
+class TestAvroSchemaThroughFunction{
+	public String entityid;
+	public String entitytype;
+}

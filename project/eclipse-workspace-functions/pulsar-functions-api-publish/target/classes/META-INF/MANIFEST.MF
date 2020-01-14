@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Title: Pulsar Functions :: API Examples
+Implementation-Version: 2.4.2
+Built-By: bizruntime-86
+Specification-Vendor: Apache Software Foundation
+Specification-Title: Pulsar Functions :: API Examples
+Implementation-Vendor-Id: org.apache.pulsar
+Build-Jdk: 1.8.0_144
+Specification-Version: 2.4
+Implementation-URL: https://github.com/apache/pulsar/pulsar-functions/
+ pulsar-functions-api-publish
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Apache Software Foundation
+

@@ -1,0 +1,27 @@
+package org.io.jdbc.ignite.test;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    	try{
+    		// Register JDBC driver.
+    		Class.forName("org.apache.ignite.IgniteJdbcThinDriver");
+    		 
+    		// Open the JDBC connection.
+    		Connection conn = DriverManager.getConnection("jdbc:ignite:thin://192.168.0.50");
+    		System.out.println("---");
+    		}
+    		catch(Exception ex){
+    			System.out.println("---"+ex);
+    		}
+    }
+}

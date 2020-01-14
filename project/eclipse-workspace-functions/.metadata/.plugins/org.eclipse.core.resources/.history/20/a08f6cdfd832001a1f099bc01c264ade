@@ -1,0 +1,20 @@
+package org.apache.pulsar.functions.api.publishexample;
+
+import com.google.gson.Gson;
+
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+		String input ="{\"ENTITYID\":\"abc\",\"ENTITYNAME\":\"0\"}";
+		//String output = String.format("%s!", input);
+		//System.out.println(output);
+		 Gson gson = new Gson();
+		EntitiesTableInfo inputObject1 = gson.fromJson(input, EntitiesTableInfo.class);
+      System.out.println(inputObject1.toString());
+        Object inputObject = gson.fromJson(input, Object.class);
+        System.out.println(inputObject);
+    }
+}
